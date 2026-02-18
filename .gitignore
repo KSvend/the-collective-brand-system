@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+
+# Large binary assets (tracked via Git LFS or external storage)
+# Uncomment if using Git LFS:
+# brand-assets/raw-scans/*.tiff
+# brand-assets/raw-scans/*.tif
+
+# After Effects temp files
+brand-assets/animation/after-effects/*.tmp
+brand-assets/animation/after-effects/Adobe\ After\ Effects\ Auto-Save/
+
+# Photoshop temp
+*.psb~
+~$*
+
+# Build outputs
+dist/
+build/
+
+# Environment
+.env
+.env.local
